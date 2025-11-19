@@ -47,7 +47,7 @@ This crate intentionally exposes a **minimal API surface** to:
 
 ## Part of Lunaris
 
-This crate is part of the [Lunaris](https://github.com/shuntia/lunaris) video editor ecosystem - a microkernel-based multimedia platform designed for extensibility via Rust plugins.
+This crate is part of the [Lunaris](https://github.com/lunaris-systems/lunaris) video editor ecosystem - a microkernel-based multimedia platform designed for extensibility via Rust plugins.
 
 ## License
 
