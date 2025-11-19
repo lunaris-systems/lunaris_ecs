@@ -1,0 +1,16 @@
+[package]
+name = "lunaris_ecs"
+version = "0.1.0"
+authors.workspace = true
+edition.workspace = true
+description = "Minimal ECS abstraction layer for Lunaris video editor - currently backed by bevy_ecs"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/shuntia/lunaris"
+homepage = "https://github.com/shuntia/lunaris"
+documentation = "https://docs.rs/lunaris_ecs"
+keywords = ["ecs", "entity-component-system", "video-editor", "lunaris"]
+categories = ["game-development", "multimedia"]
+readme = "README.md"
+
+[dependencies]
+bevy_ecs = { workspace = true, features = ["multi_threaded", "trace"] }
