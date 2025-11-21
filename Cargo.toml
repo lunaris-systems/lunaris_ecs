@@ -14,3 +14,4 @@ readme = "README.md"
 
 [dependencies]
 bevy_ecs = { workspace = true, features = ["multi_threaded", "trace"] }
+lunaris_derive = { path = "derive", version = "0.1.0" }

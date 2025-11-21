@@ -1,0 +1,16 @@
+[package]
+name = "lunaris_derive"
+version = "0.1.0"
+edition = "2024"
+description = "Derive macros for Lunaris ECS"
+homepage = "https://lunaris.shuntia.net"
+repository = "https://github.com/lunaris-systems/lunaris_ecs"
+license = "MIT OR Apache-2.0"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0", features = ["full"] }
+quote = "1.0"
+proc-macro2 = "1.0"

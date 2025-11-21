@@ -8,19 +8,22 @@
 #[doc(hidden)]
 pub use bevy_ecs;
 
+// Re-export our custom derive macros
+pub use lunaris_derive::{Component, Event, Resource};
+
 // Core types that we expose
 pub use bevy_ecs::entity::Entity;
 pub use bevy_ecs::world::World;
 
 // Component and Resource traits
-pub use bevy_ecs::component::Component;
-pub use bevy_ecs::resource::Resource;
+// pub use bevy_ecs::component::Component;
+// pub use bevy_ecs::resource::Resource;
 
 // System types
 pub use bevy_ecs::system::{BoxedSystem, Commands, Query, Res, ResMut, System};
 
 // Event handling
-pub use bevy_ecs::event::Event;
+// pub use bevy_ecs::event::Event;
 
 // Query filters
 pub use bevy_ecs::query::{With, Without};
