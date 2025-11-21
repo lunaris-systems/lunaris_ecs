@@ -8,7 +8,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/lunaris-systems/lunaris"
 homepage = "https://github.com/lunaris-systems/lunaris"
 documentation = "https://docs.rs/lunaris_ecs"
-keywords = ["ecs", "entity-component-system", "video-editor", "lunaris"]
+keywords = ["ecs", "video-editor", "lunaris"]
 categories = ["game-development", "multimedia"]
 readme = "README.md"
 
